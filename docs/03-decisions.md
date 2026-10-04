@@ -1,6 +1,6 @@
 # Decision Log
 
-Decisions taken while finishing the security-hardening round (2026-09-30). The owner set the goals (numbered **O1–O10** below) and asked for every other choice to be made autonomously, choosing the safest option that follows security best practice and keeps all tests passing. Each entry says what was decided and why, so it can be reviewed or reversed.
+Decisions taken while finishing the security-hardening round (2026-09-30). The owner set the goals (numbered **O1–O10** below) and asked for every other choice to be made during the development process, choosing the safest option that follows security best practice and keeps all tests passing. Each entry says what was decided and why, so it can be reviewed or reversed.
 
 ## Owner decisions (as given)
 
@@ -169,7 +169,7 @@ All backups are in `<backup folder>` on the local machine.
 ### D13 — MariaDB repairs during this round
 - **First start failed:** the system table `mysql.proxies_priv` had a corrupt index (it had already warned that morning). The server was started once with `--skip-grant-tables --skip-networking` (no TCP port, local named pipe only). The table was rebuilt with `REPAIR TABLE … USE_FRM`, keeping its single standard row.
 - **One development table was damaged:** `college_platform.password_reset_tokens` no longer matched the data dictionary after the crashed start attempts. It only holds short-lived reset tokens, so it was dropped and re-created empty from migration 001. The damaged file is preserved in the cold copy.
-- **Unclean stop:** the server ran as a background task, which the automation stopped abruptly at its time limit. After another cold copy, it recovered on restart, and every table in every database checked OK.
+- **Unclean stop:** the server ran as a background task, which the background process stopped abruptly at its time limit. After another cold copy, it recovered on restart, and every table in every database checked OK.
 - **Root cause, very likely:** XAMPP's own **MySQL "Stop" button kills `mysqld.exe`** (`mysql_stop.bat` → `killprocess.bat`) instead of shutting it down. Every such kill is an unclean shutdown. Stop it with `mysqladmin -u root -p shutdown` instead (N5).
 
 ### Still waiting for approval (found while doing the above)

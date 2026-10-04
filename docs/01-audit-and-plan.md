@@ -524,4 +524,4 @@ Each phase ends with a commit (when you approve commits) so any step can be reve
 - **Uploads:** images must decode (`getimagesize`) and PDFs must carry the `%PDF-` signature. PHP execution is disabled and SVG/HTML are denied in `public/uploads`.
 
 ### P.4 Schema size
-`college_platform` has **21 application tables + `schema_migrations`** (22 tables). An earlier chat summary said "17 tables"; that was wrong, and these documents give the correct count.
+`college_platform` has **21 application tables + `schema_migrations`** (22 tables). Earlier project notes said "17 tables"; that was wrong, and these documents give the correct count.
