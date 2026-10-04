@@ -1,0 +1,32 @@
+{
+  "title": "College facilities",
+  "subtitle": "Facilities available to book for student activities and clubs.",
+  "empty": "No facilities are available to book right now.",
+  "capacity_people": {
+    "one": "1 person",
+    "other": ":count people"
+  },
+  "booked_slots": "Upcoming booked times",
+  "no_bookings": "No approved bookings ahead. Any time can be requested.",
+  "reserved": "Reserved",
+  "book": "Request this facility",
+  "login_to_book": "Log in to request a booking",
+  "admin_view": "View requests for this facility",
+  "admin": {
+    "title": "Facilities",
+    "create": "Add facility",
+    "edit": "Edit facility",
+    "code_help": "Lowercase letters, digits and _ only. Used internally.",
+    "cols": {
+      "name": "Facility"
+    },
+    "fields": {
+      "code": "Code",
+      "name_ar": "Name (Arabic)",
+      "name_en": "Name (English)",
+      "active": "Available for booking",
+      "image": "Facility photo",
+      "remove_image": "Remove the current photo"
+    }
+  }
+}

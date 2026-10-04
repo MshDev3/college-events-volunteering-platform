@@ -1,0 +1,33 @@
+{
+  "title": "Users",
+  "subtitle": "Students and admins, their roles and account status.",
+  "search_placeholder": "Name, email or student ID",
+  "empty": "No matching users.",
+  "you": "You",
+  "self_protected": "You can't change your own account here",
+  "cols": {
+    "name": "Name",
+    "student_id": "Student ID",
+    "role": "Role",
+    "created_at": "Joined"
+  },
+  "make_admin": "Make admin",
+  "make_student": "Make student",
+  "change_role": "Change role",
+  "role_confirm": "Change :name's role to “:role”?",
+  "activate": "Activate",
+  "deactivate": "Deactivate",
+  "activate_confirm": "Activate :name's account?",
+  "deactivate_confirm": "Deactivate :name's account? They'll be signed out immediately.",
+  "errors": {
+    "self_role": "You can't change your own role.",
+    "self_deactivate": "You can't deactivate your own account.",
+    "last_admin": "Not allowed: this is the last active admin account.",
+    "admin_exists": "An active administrator already exists. Grant admin rights to another account from Admin › Users instead."
+  },
+  "flash": {
+    "role_changed": "Role changed.",
+    "activated": "Account activated.",
+    "deactivated": "Account deactivated."
+  }
+}

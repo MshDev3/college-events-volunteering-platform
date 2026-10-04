@@ -1,0 +1,77 @@
+{
+  "title": "Volunteer opportunities",
+  "subtitle": "Internal volunteering at the college, with the certified hours for each opportunity.",
+  "about": "About this opportunity",
+  "cancelled_notice": "This opportunity has been cancelled.",
+  "hours_policy": "Hours are counted once the administration confirms you completed your participation, not when you register.",
+  "hours_count": {
+    "one": "1 hour",
+    "other": ":count hours"
+  },
+  "fields": {
+    "category": "Volunteering area",
+    "hours": "Certified hours",
+    "motivation": "Why do you want to volunteer? (optional)"
+  },
+  "help": {
+    "motivation": "Mention skills or experience so the organizers can assign tasks."
+  },
+  "empty": {
+    "title": "No volunteer opportunities",
+    "text": "No opportunities have been added yet.",
+    "upcoming": "There are no open opportunities right now."
+  },
+  "action": {
+    "register": "Sign up to volunteer",
+    "registered": "You're signed up for this opportunity.",
+    "unregister": "Withdraw",
+    "unregister_confirm": "Withdraw from this opportunity?",
+    "full": "All volunteer places are taken.",
+    "closed_cancelled": "Sign-up is closed because the opportunity was cancelled.",
+    "closed_started": "Sign-up is closed because the opportunity has started or ended.",
+    "login_to_register": "Log in with a student account to volunteer.",
+    "admin_note": "Admin accounts don't sign up to volunteer. You can manage this opportunity from the admin panel."
+  },
+  "errors": {
+    "cancelled": "You can't sign up: this opportunity was cancelled.",
+    "completed": "You can't sign up: this opportunity has ended.",
+    "started": "You can't sign up: this opportunity has already started.",
+    "already_registered": "You're already signed up for this opportunity.",
+    "full": "This opportunity is full.",
+    "not_registered": "You're not signed up for this opportunity.",
+    "cannot_unregister": "You can't withdraw after the opportunity starts.",
+    "already_cancelled": "This opportunity is already cancelled.",
+    "delete_has_registrations": "An opportunity with volunteers can't be deleted. Cancel it instead so they're notified.",
+    "capacity_below_registered": "Capacity can't be lower than the current number of volunteers (:count).",
+    "attendance_before_start": "Attendance can be recorded only after the opportunity starts.",
+    "cannot_complete": "Completion can't be approved for this registration's current status.",
+    "complete_before_start": "Completion can be approved only after the opportunity starts.",
+    "removed_by_admin": "The administration removed you from this opportunity, so you can't sign up again. Contact them if this is a mistake."
+  },
+  "flash": {
+    "registered": "You're signed up. Find it under “My volunteering”.",
+    "unregistered": "You've withdrawn from the opportunity.",
+    "created": "Opportunity created.",
+    "updated": "Opportunity saved.",
+    "cancelled": "Opportunity cancelled and volunteers notified.",
+    "deleted": "Opportunity deleted.",
+    "completed": "Completion approved and hours awarded."
+  },
+  "admin": {
+    "title": "Volunteering",
+    "create": "Add opportunity",
+    "edit_title": "Edit opportunity",
+    "cols": {
+      "title": "Opportunity"
+    },
+    "hours_help": "Default hours awarded on completion; adjustable per volunteer.",
+    "approve_completion": "Approve completion",
+    "cancel_registration_confirm": "Cancel this volunteer's registration? They'll be notified.",
+    "cancel_title": "Cancel opportunity",
+    "cancel": "Cancel opportunity",
+    "cancel_reason": "Reason for cancelling",
+    "cancel_help": "Shown on the opportunity page and in the notification to volunteers.",
+    "cancel_confirm": "The opportunity will be cancelled and all volunteers notified. Continue?",
+    "delete_confirm": "The opportunity will be permanently deleted. Continue?"
+  }
+}

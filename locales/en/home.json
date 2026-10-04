@@ -1,0 +1,77 @@
+{
+  "title": "Home",
+  "hero": {
+    "title": "Participate, Volunteer, Make an Impact",
+    "lead": "College events, volunteering and facility booking in one place. Register in one click and track your certified volunteer hours.",
+    "explore_events": "Explore Events",
+    "volunteer": "Volunteer Opportunities",
+    "next_up": "Next on the calendar",
+    "no_events": "No events are scheduled right now. Check back soon."
+  },
+  "stats": {
+    "label": "Portal figures",
+    "upcoming_events": "upcoming events",
+    "opportunities": "open volunteer opportunities",
+    "hours": "certified volunteer hours",
+    "students": "registered students"
+  },
+  "events": {
+    "title": "Upcoming events",
+    "lead": "Dates, venues and remaining seats straight from the college calendar.",
+    "all": "All events"
+  },
+  "volunteering": {
+    "title": "Internal volunteering",
+    "lead": "Pick the area that fits your skills. Hours are certified once the administration confirms your participation.",
+    "all": "All opportunities"
+  },
+  "services": {
+    "title": "College services",
+    "lead": "What you need from the college, without visiting an office.",
+    "facilities": {
+      "title": "Facility booking",
+      "text": "Theater, events hall, stadium and gymnasium."
+    },
+    "volunteering": {
+      "title": "Volunteering",
+      "text": "Event management, design, translation and tech support."
+    },
+    "feedback": {
+      "title": "Suggestions & complaints",
+      "text": "Submit a request and follow its status and reply."
+    },
+    "contact": {
+      "title": "Contact us",
+      "text": "Send a question and it reaches the right team."
+    }
+  },
+  "how": {
+    "title": "How it works",
+    "steps": {
+      "account": {
+        "title": "Create your account",
+        "text": "With your student ID and email."
+      },
+      "choose": {
+        "title": "Pick an event or opportunity",
+        "text": "Filter by date, type or location."
+      },
+      "register": {
+        "title": "Take your seat",
+        "text": "Registration is confirmed instantly while seats are available."
+      },
+      "track": {
+        "title": "Track your participation",
+        "text": "Registrations, volunteer hours and bookings on your dashboard."
+      }
+    }
+  },
+  "cta": {
+    "guest_title": "Ready to take part?",
+    "guest_text": "Create your account in under a minute and start registering.",
+    "guest_button": "Create account",
+    "user_title": "Everything you joined, in one place",
+    "user_text": "Follow your registrations, volunteer hours and bookings.",
+    "user_button": "Open my dashboard"
+  }
+}

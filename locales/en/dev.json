@@ -1,0 +1,11 @@
+{
+  "mail": {
+    "title": "Development mailbox",
+    "subtitle": "Emails saved locally while MAIL_DRIVER=log. This page only works in the local environment.",
+    "empty": "No emails yet.",
+    "to": "To",
+    "subject": "Subject",
+    "sent": "Sent",
+    "open": "Open"
+  }
+}

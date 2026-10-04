@@ -1,0 +1,18 @@
+{
+  "title": "Settings",
+  "subtitle": "Contact details and the About page photo.",
+  "contact_section": "Contact details",
+  "about_section": "About page photo",
+  "address_help": "Leave empty to hide the address line.",
+  "about_image_help": "A photo of the college building or an academic activity works best.",
+  "fields": {
+    "contact_email": "Main email",
+    "contact_email_2": "Second email",
+    "contact_phone": "Main phone",
+    "contact_phone_2": "Second phone",
+    "address_ar": "Address (Arabic)",
+    "address_en": "Address (English)",
+    "about_image": "New photo",
+    "remove_about_image": "Use the default photo"
+  }
+}

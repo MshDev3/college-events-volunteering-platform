@@ -1,0 +1,24 @@
+# SECOND LINE OF DEFENCE ONLY. In production, point the web server's document root at public/
+# (see README "Deployment") so nothing outside public/ is ever reachable, whatever this file says.
+#
+# When the project root itself is web-served (e.g. XAMPP htdocs), every request is routed into
+# /public, and the rules below refuse everything else explicitly instead of relying on the rewrite.
+Options -Indexes
+
+# Dotfiles (.env, .git*, .htaccess), dumps, logs, lock/config files, archives and docs are never served,
+# in any directory.
+<FilesMatch "(?i)(^\.|\.(env|sql|gz|log|ini|lock|bak|swp|zip|md|dist|xml|yml|yaml|sh|bat|ps1)$|^composer\.(json|lock)$)">
+    Require all denied
+</FilesMatch>
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    # Application code, configuration, data and tooling: 404 (do not even reveal that they exist).
+    RewriteRule ^(\.git|app|backups|bin|config|database|docs|legacy|locales|storage|tests|vendor|views)(/|$) - [R=404,L]
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
+
+# Without mod_rewrite nothing can be routed safely: refuse everything.
+<IfModule !mod_rewrite.c>
+    Require all denied
+</IfModule>

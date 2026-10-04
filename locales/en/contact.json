@@ -1,0 +1,37 @@
+{
+  "title": "Contact us",
+  "subtitle": "Send your question to the college administration.",
+  "form_title": "Send a message",
+  "map_title": "Map of the college location",
+  "submit": "Send message",
+  "feedback_hint": "Have a suggestion or complaint? Submit it from the feedback page to follow its status.",
+  "feedback_link": "Submit a suggestion or complaint",
+  "info": {
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email"
+  },
+  "fields": {
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message"
+  },
+  "errors": {
+    "too_many": "You've sent several messages in a short time. Try again in an hour."
+  },
+  "flash": {
+    "sent": "Message received. We'll reply to your email."
+  },
+  "admin": {
+    "title": "Contact messages",
+    "subtitle": "Messages sent from the Contact page.",
+    "empty": "No matching messages.",
+    "cols": {
+      "sender": "Sender",
+      "date": "Date"
+    },
+    "mark_as": "Mark as :status",
+    "reply_by_email": "Reply by email"
+  }
+}

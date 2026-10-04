@@ -1,0 +1,186 @@
+{
+  "site_name": "Technical College Portal",
+  "site_tagline": "Events, volunteering and college services",
+  "site_description": "The Technical College portal for events, volunteering, facility booking, suggestions and complaints.",
+  "nav": {
+    "home": "Home",
+    "events": "Events",
+    "volunteering": "Volunteering",
+    "facilities": "Facilities",
+    "about": "About",
+    "contact": "Contact",
+    "login": "Log in",
+    "register": "Create account",
+    "logout": "Log out",
+    "dashboard": "Dashboard",
+    "admin_panel": "Admin panel",
+    "my_registrations": "My registrations",
+    "my_volunteering": "My volunteering",
+    "my_reservations": "My reservations",
+    "my_feedback": "Suggestions & complaints",
+    "profile": "Profile"
+  },
+  "a11y": {
+    "skip_to_content": "Skip to content",
+    "main_nav": "Main navigation",
+    "student_nav": "My account",
+    "account_menu": "Account menu",
+    "language": "Language",
+    "breadcrumb": "Breadcrumb"
+  },
+  "actions": {
+    "back_home": "Back to home",
+    "cancel": "Cancel",
+    "close": "Close",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "view_all": "View all",
+    "view_public": "View public page",
+    "manage": "Manage",
+    "actions": "Actions",
+    "save_changes": "Save changes",
+    "open_menu": "Open menu",
+    "show_password": "Show password",
+    "hide_password": "Hide password"
+  },
+  "confirm": {
+    "title": "Confirm action",
+    "default": "Do you want to continue?"
+  },
+  "forms": {
+    "choose": "Choose…",
+    "optional_choose": "Choose (optional)"
+  },
+  "filters": {
+    "search": "Search",
+    "search_placeholder": "Search by title or description",
+    "all": "All",
+    "status": "Status",
+    "from": "From",
+    "to": "To",
+    "date_placeholder": "dd/mm/yyyy",
+    "location": "Location",
+    "apply": "Apply",
+    "reset": "Clear filters"
+  },
+  "states": {
+    "loading": "Loading…",
+    "no_results": "Nothing matches these filters. Try changing them.",
+    "active": "Active",
+    "inactive": "Deactivated"
+  },
+  "pagination": {
+    "label": "Pagination",
+    "previous": "Previous page",
+    "next": "Next page",
+    "showing": "Showing :from–:to of :total"
+  },
+  "capacity": {
+    "label": "Seats taken",
+    "registered": "registered",
+    "full": "Full",
+    "you_are_in": "You're registered",
+    "seats_left": {
+      "one": "1 seat left",
+      "other": ":count seats left"
+    }
+  },
+  "roles": {
+    "STUDENT": "Student",
+    "ADMIN": "Admin"
+  },
+  "feedback_type": {
+    "SUGGESTION": "Suggestion",
+    "COMPLAINT": "Complaint"
+  },
+  "status": {
+    "activity": {
+      "UPCOMING": "Upcoming",
+      "ONGOING": "Ongoing",
+      "COMPLETED": "Completed",
+      "CANCELLED": "Cancelled"
+    },
+    "registration": {
+      "REGISTERED": "Registered",
+      "ATTENDED": "Attended",
+      "CANCELLED": "Cancelled"
+    },
+    "volunteer": {
+      "REGISTERED": "Registered",
+      "ATTENDED": "Attended",
+      "COMPLETED": "Completed",
+      "CANCELLED": "Cancelled"
+    },
+    "reservation": {
+      "PENDING": "Pending",
+      "APPROVED": "Approved",
+      "REJECTED": "Rejected",
+      "CANCELLED": "Cancelled",
+      "COMPLETED": "Completed"
+    },
+    "feedback": {
+      "OPEN": "Open",
+      "IN_PROGRESS": "In progress",
+      "RESOLVED": "Resolved",
+      "CLOSED": "Closed"
+    },
+    "contact": {
+      "UNREAD": "Unread",
+      "READ": "Read",
+      "RESOLVED": "Resolved"
+    }
+  },
+  "dates": {
+    "days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+    "months": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+    "months_short": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+    "am": "AM",
+    "pm": "PM",
+    "date_format": ":month :day, :year",
+    "day_separator": ", ",
+    "relative": {
+      "just_now": "Just now",
+      "minute": {
+        "one": "1 minute ago",
+        "other": ":count minutes ago"
+      },
+      "hour": {
+        "one": "1 hour ago",
+        "other": ":count hours ago"
+      },
+      "day": {
+        "one": "Yesterday",
+        "other": ":count days ago"
+      }
+    }
+  },
+  "errors": {
+    "code": "Error :code",
+    "validation": "Check the highlighted fields and try again.",
+    "invalid_transition": "This action isn't possible in the current state.",
+    "http_401": "Log in to continue.",
+    "http_403": "You don't have permission to open this page.",
+    "http_404": "This page doesn't exist. It may have been moved or deleted.",
+    "http_405": "This request method isn't supported for this address.",
+    "http_419": "This page expired. Refresh it and try again.",
+    "http_422": "The submitted value isn't valid.",
+    "http_429": "Too many requests in a short time. Wait a moment and try again.",
+    "http_500": "Something went wrong on our side. Try again shortly."
+  },
+  "units": {
+    "kb": "KB"
+  },
+  "flash": {
+    "saved": "Changes saved."
+  },
+  "footer": {
+    "about": "One place for Technical College students: college events, volunteering with tracked hours, facility booking, and suggestions and complaints.",
+    "explore": "Explore",
+    "college": "College",
+    "reach_us": "Reach us",
+    "feedback": "Suggestions & complaints",
+    "rights": "All rights reserved."
+  }
+}

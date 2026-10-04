@@ -1,0 +1,73 @@
+{
+  "dashboard": {
+    "title": "لوحتي",
+    "welcome": "أهلًا :name",
+    "subtitle": "فعالياتك وساعات تطوعك وآخر التحديثات.",
+    "complete_profile": "أكمل ملفك الشخصي (الرقم التدريبي ورقم الجوال) ليتمكن المنظمون من التواصل معك.",
+    "complete_profile_action": "إكمال الملف",
+    "my_upcoming": "فعالياتي القادمة",
+    "no_upcoming": "لم تسجل في فعاليات قادمة",
+    "no_upcoming_text": "تصفّح الفعاليات واحجز مقعدك.",
+    "suggested": "فعاليات قد تهمك",
+    "opportunities": "فرص تطوع مفتوحة",
+    "activity": "آخر نشاطاتك",
+    "no_activity": "لا يوجد نشاط بعد."
+  },
+  "stats": {
+    "registered_events": "فعاليات مسجل فيها",
+    "completed_events": "فعاليات حضرتها",
+    "volunteer_hours": "ساعات التطوع المعتمدة"
+  },
+  "registrations": {
+    "title": "تسجيلاتي",
+    "subtitle": "الفعاليات التي سجلت فيها حسب حالتها.",
+    "tabs_label": "حالة الفعالية",
+    "cols": {
+      "event": "الفعالية",
+      "date": "التاريخ",
+      "location": "المكان",
+      "status": "الحالة"
+    },
+    "empty": {
+      "upcoming": "لا توجد فعاليات قادمة في تسجيلاتك.",
+      "ongoing": "لا توجد فعاليات جارية الآن.",
+      "completed": "لا توجد فعاليات منتهية.",
+      "cancelled": "لا توجد تسجيلات ملغاة."
+    }
+  },
+  "volunteering": {
+    "title": "تطوعي",
+    "subtitle": "مشاركاتك التطوعية والساعات المعتمدة.",
+    "empty": "لم تسجل في أي فرصة تطوع بعد.",
+    "hours_pending": "تُعتمد عند الإتمام (:hours)",
+    "cols": {
+      "opportunity": "الفرصة",
+      "hours": "الساعات"
+    }
+  },
+  "activity": {
+    "event": {
+      "REGISTERED": "سجلت في فعالية",
+      "ATTENDED": "حضرت فعالية",
+      "CANCELLED": "ألغيت تسجيلًا"
+    },
+    "volunteer": {
+      "REGISTERED": "سجلت متطوعًا",
+      "ATTENDED": "حضرت مشاركة تطوعية",
+      "COMPLETED": "اعتُمدت ساعات تطوع",
+      "CANCELLED": "انسحبت من فرصة تطوع"
+    },
+    "reservation": {
+      "PENDING": "طلبت حجز مرفق",
+      "APPROVED": "قُبل طلب الحجز",
+      "REJECTED": "رُفض طلب الحجز",
+      "CANCELLED": "أُلغي الحجز"
+    },
+    "feedback": {
+      "OPEN": "أرسلت طلبًا",
+      "IN_PROGRESS": "طلبك قيد المعالجة",
+      "RESOLVED": "تم حل طلبك",
+      "CLOSED": "أُغلق طلبك"
+    }
+  }
+}

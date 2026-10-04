@@ -1,0 +1,15 @@
+{
+  "title": "About",
+  "subtitle": "Why the portal exists and what it offers.",
+  "mission_title": "Our aim",
+  "mission": "Make it easy for trainees to take part in college life: know about events in time, volunteer with transparently tracked hours, and reach college services without paperwork or office visits.",
+  "offer_title": "What the portal offers",
+  "offer": {
+    "events": "An up-to-date event calendar with times, venues and available seats.",
+    "volunteering": "Volunteering in event management, design, translation and tech support, with certified hours.",
+    "facilities": "Booking requests for the theater, events hall, stadium and gymnasium, with approval tracking.",
+    "feedback": "Suggestions and complaints with status tracking and administration replies."
+  },
+  "history": "The portal evolves the college's previous internal volunteering system: it keeps its services and adds events, hour tracking and full Arabic/English support.",
+  "image_alt": "Trainees at a college event"
+}

@@ -1,0 +1,37 @@
+{
+  "title": "Notifications",
+  "all": "All",
+  "unread": "Unread",
+  "empty": "No notifications.",
+  "reason": "Reason: :reason",
+  "note": "Administration note: :note",
+  "mark_all": "Mark all as read",
+  "mark_read": "Mark as read",
+  "open": "Open",
+  "bell_label": {
+    "one": "Notifications, 1 new",
+    "other": "Notifications, :count new"
+  },
+  "flash": {
+    "all_read": "All notifications marked as read."
+  },
+  "types": {
+    "welcome": {"title": "Welcome to the portal", "body": "Start by exploring events and volunteer opportunities.", "icon": "bi-stars"},
+    "event_registered": {"title": "Registration confirmed", "body": "You're registered for “:title”.", "icon": "bi-calendar-check"},
+    "event_unregistered": {"title": "Registration cancelled", "body": "You cancelled your registration for “:title”.", "icon": "bi-calendar-x"},
+    "event_cancelled": {"title": "Event cancelled", "body": "“:title” was cancelled.", "icon": "bi-calendar-x"},
+    "event_updated": {"title": "Event time or venue changed", "body": "Check the new details for “:title”.", "icon": "bi-calendar-event"},
+    "volunteer_registered": {"title": "You're signed up to volunteer", "body": "You signed up for “:title”. Hours are certified on completion.", "icon": "bi-heart"},
+    "volunteer_completed": {"title": "Volunteer hours certified", "body": ":hours hours added for “:title”.", "icon": "bi-patch-check"},
+    "volunteer_cancelled": {"title": "Volunteer registration cancelled", "body": "You're no longer signed up for “:title”.", "icon": "bi-heartbreak"},
+    "opportunity_cancelled": {"title": "Opportunity cancelled", "body": "“:title” was cancelled.", "icon": "bi-x-circle"},
+    "opportunity_updated": {"title": "Opportunity time or venue changed", "body": "Check the new details for “:title”.", "icon": "bi-arrow-repeat"},
+    "reservation_submitted": {"title": "Booking request received", "body": "Your request for “:facility” is pending review.", "icon": "bi-hourglass-split"},
+    "reservation_approved": {"title": "Booking approved", "body": "Your request for “:facility” was approved.", "icon": "bi-check2-circle"},
+    "reservation_rejected": {"title": "Booking rejected", "body": "Your request for “:facility” was rejected.", "icon": "bi-x-octagon"},
+    "reservation_cancelled": {"title": "Booking cancelled", "body": "The administration cancelled your booking of “:facility”.", "icon": "bi-x-circle"},
+    "feedback_replied": {"title": "Your request got a reply", "body": "The administration replied to “:subject”.", "icon": "bi-chat-left-text"},
+    "feedback_status": {"title": "Request status updated", "body": "“:subject” is now: :status.", "icon": "bi-arrow-repeat"},
+    "password_changed": {"title": "Password changed", "body": "If this wasn't you, contact the administration immediately.", "icon": "bi-shield-lock"}
+  }
+}

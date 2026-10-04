@@ -1,0 +1,92 @@
+{
+  "title": "Events",
+  "subtitle": "Every college event with its time, venue and remaining seats.",
+  "about": "About this event",
+  "cancelled_notice": "This event has been cancelled.",
+  "fields": {
+    "type": "Event type",
+    "date": "Date",
+    "time": "Time",
+    "ends": "Ends",
+    "location": "Location",
+    "capacity": "Capacity"
+  },
+  "empty": {
+    "title": "No events",
+    "text": "No events have been added yet.",
+    "upcoming": "There are no upcoming events right now."
+  },
+  "action": {
+    "register": "Register for this event",
+    "registered": "You're registered for this event.",
+    "unregister": "Cancel registration",
+    "unregister_confirm": "Cancel your registration for this event? Someone else may take your seat.",
+    "full": "All seats are taken.",
+    "closed_cancelled": "Registration is closed because the event was cancelled.",
+    "closed_started": "Registration is closed because the event has started or ended.",
+    "login_to_register": "Log in with a student account to take a seat.",
+    "admin_note": "Admin accounts don't register for events. You can manage this event from the admin panel."
+  },
+  "errors": {
+    "cancelled": "You can't register: this event was cancelled.",
+    "completed": "You can't register: this event has ended.",
+    "started": "You can't register: this event has already started.",
+    "already_registered": "You're already registered for this event.",
+    "full": "This event is full.",
+    "not_registered": "You're not registered for this event.",
+    "cannot_unregister": "Registrations can't be cancelled after the event starts.",
+    "already_cancelled": "This event is already cancelled.",
+    "delete_has_registrations": "An event with registrations can't be deleted. Cancel it instead so registrants are notified.",
+    "capacity_below_registered": "Capacity can't be lower than the current number of registrants (:count).",
+    "attendance_before_start": "Attendance can be recorded only after the event starts."
+  },
+  "flash": {
+    "registered": "You're registered. Find it under “My registrations”.",
+    "unregistered": "Your registration was cancelled.",
+    "created": "Event created.",
+    "updated": "Event saved.",
+    "cancelled": "Event cancelled and registrants notified.",
+    "deleted": "Event deleted."
+  },
+  "admin": {
+    "title": "Events",
+    "create": "Add event",
+    "edit_title": "Edit event",
+    "cols": {
+      "title": "Event",
+      "date": "Date",
+      "location": "Location",
+      "registered": "Registered / capacity",
+      "status": "Status"
+    },
+    "section_content": "Content (Arabic and English)",
+    "section_schedule": "Schedule and capacity",
+    "fields": {
+      "title_ar": "Title (Arabic)",
+      "title_en": "Title (English)",
+      "description_ar": "Description (Arabic)",
+      "description_en": "Description (English)",
+      "location_ar": "Location (Arabic)",
+      "location_en": "Location (English)",
+      "start": "Starts",
+      "end": "Ends",
+      "image": "Cover image",
+      "remove_image": "Remove the image and use the default"
+    },
+    "image_default_help": "Without an image, a default for the type or category is shown.",
+    "image_help": "JPG, PNG or WEBP, up to :max MB.",
+    "capacity_help": "Currently registered: :count",
+    "notify_help": "Changing the time or venue notifies everyone registered.",
+    "registrations_title": "Registrants",
+    "search_attendees": "Search by name, email or ID",
+    "no_registrations": "No registrations yet.",
+    "mark_attended": "Mark attended",
+    "undo_attended": "Undo attendance",
+    "cancel_title": "Cancel event",
+    "cancel": "Cancel event",
+    "cancel_reason": "Reason for cancelling",
+    "cancel_help": "Shown on the event page and in the notification to registrants.",
+    "cancel_confirm": "The event will be cancelled and all registrants notified. Continue?",
+    "delete_confirm": "The event will be permanently deleted. Continue?"
+  }
+}

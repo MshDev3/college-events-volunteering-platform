@@ -1,0 +1,42 @@
+{
+  "panel": "لوحة الإدارة",
+  "nav": {
+    "dashboard": "نظرة عامة",
+    "events": "الفعاليات",
+    "volunteering": "التطوع",
+    "registrations": "التسجيلات",
+    "reservations": "الحجوزات",
+    "facilities": "المرافق",
+    "feedback": "الاقتراحات والشكاوى",
+    "messages": "رسائل التواصل",
+    "users": "المستخدمون",
+    "settings": "الإعدادات",
+    "site": "الموقع",
+    "view_site": "عرض الموقع"
+  },
+  "dashboard": {
+    "title": "نظرة عامة",
+    "subtitle": "أهلًا :name، هذه أرقام البوابة الآن.",
+    "pending_reservations": "حجوزات بانتظار المراجعة",
+    "no_pending": "لا توجد حجوزات بانتظار المراجعة.",
+    "latest_feedback": "أحدث الاقتراحات والشكاوى",
+    "upcoming_events": "الفعاليات القادمة"
+  },
+  "stats": {
+    "students": "إجمالي الطلاب",
+    "events": "إجمالي الفعاليات",
+    "upcoming_events": "فعاليات قادمة",
+    "registrations": "إجمالي التسجيلات",
+    "opportunities": "فرص التطوع",
+    "volunteer_hours": "ساعات التطوع المعتمدة",
+    "pending_reservations": "حجوزات قيد المراجعة",
+    "open_complaints": "شكاوى مفتوحة",
+    "unread_messages": "رسائل غير مقروءة"
+  },
+  "registrations": {
+    "title": "تسجيلات الفعاليات",
+    "subtitle": "كل تسجيلات الطلاب في جميع الفعاليات.",
+    "search_placeholder": "اسم الطالب أو بريده أو رقمه أو اسم الفعالية",
+    "registered_at": "وقت التسجيل"
+  }
+}

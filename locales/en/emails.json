@@ -1,0 +1,25 @@
+{
+  "password_reset": {
+    "subject": "Reset your password",
+    "greeting": "Hello :name,",
+    "intro": "We received a request to reset the password of your Technical College Portal account. Use the button to choose a new password.",
+    "button": "Set a new password",
+    "expiry": "The link works once and expires in :minutes minutes.",
+    "ignore": "If you didn't ask for this, ignore this email and nothing will change."
+  },
+  "email_changed": {
+    "subject": "Your login email was changed",
+    "greeting": "Hello :name,",
+    "intro": "The login email of your Technical College Portal account was just changed to :new_email. From now on, sign-in and password resets use the new address.",
+    "sessions": "All other devices were signed out.",
+    "not_you": "If you didn't make this change, contact the college administration immediately so they can secure your account."
+  },
+  "verify_email": {
+    "subject": "Confirm your new email address",
+    "greeting": "Hello :name,",
+    "intro": "You asked to use this address as the login email of your Technical College Portal account. Confirm it with the button (you'll need to be signed in).",
+    "button": "Confirm this email",
+    "expiry": "The link works once and expires in :minutes minutes.",
+    "ignore": "If you didn't ask for this, ignore this email; the account keeps its current address."
+  }
+}

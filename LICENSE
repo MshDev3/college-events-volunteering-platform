@@ -1,0 +1,19 @@
+Copyright (c) 2026 Meshal. All rights reserved.
+
+This repository is published as a personal portfolio project. It is not the
+official website of, and is not endorsed by, any institution.
+
+No license is granted. You may view the source code on the platform where it is
+published, as that platform's terms of service allow, but you may not use,
+copy, modify, merge, publish, distribute, sublicense or sell this software or
+any part of it without prior written permission from the copyright holder.
+
+Third-party components keep their own licenses:
+  - PHP dependencies installed by Composer (see composer.json / composer.lock);
+  - flatpickr (MIT), bundled in public/assets/lib/flatpickr;
+  - photographs credited in public/assets/img/defaults/CREDITS.md, used under
+    their original licenses.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM,
+DAMAGES OR OTHER LIABILITY ARISING FROM THE SOFTWARE OR ITS USE.

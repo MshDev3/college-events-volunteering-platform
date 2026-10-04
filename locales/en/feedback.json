@@ -1,0 +1,52 @@
+{
+  "my_title": "Suggestions & complaints",
+  "my_subtitle": "What you've sent to the administration, its status and replies.",
+  "new": "New suggestion or complaint",
+  "new_subtitle": "Your request goes to the responsible team and you can follow its status here.",
+  "submit": "Send",
+  "empty": "No requests",
+  "empty_text": "Share an idea to improve the college or report a problem.",
+  "has_reply": "Replied",
+  "by": "Submitted by :name",
+  "reply_title": "Administration reply",
+  "no_reply": "No reply yet. You'll get a notification when there is one.",
+  "replied_by": "Replied by :name",
+  "fields": {
+    "type": "Type",
+    "category": "Category",
+    "subject": "Subject",
+    "message": "Details",
+    "attachment": "Attachment (optional)"
+  },
+  "help": {
+    "message": "For a complaint, include where, when and what happened.",
+    "attachment": "An image or PDF up to :max MB."
+  },
+  "flash": {
+    "submitted": "Sent. You'll be notified when its status changes.",
+    "replied": "Reply sent and the student notified.",
+    "archived": "Archived.",
+    "unarchived": "Moved back to the inbox."
+  },
+  "admin": {
+    "title": "Suggestions & complaints",
+    "subtitle": "Review requests, update their status and reply.",
+    "inbox": "Inbox",
+    "archived": "Archived",
+    "cols": {
+      "author": "Submitted by",
+      "date": "Date"
+    },
+    "reply": "Reply",
+    "reply_text": "Reply text",
+    "reply_help": "The student sees the reply on the request page and gets a notification.",
+    "status_after": "Status after replying",
+    "send_reply": "Send reply",
+    "change_status": "Change status",
+    "archive": "Archive",
+    "unarchive": "Move back to inbox"
+  },
+  "errors": {
+    "too_many": "You've sent several requests in a short time. Try again in an hour."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "title": "الإشعارات",
+  "all": "الكل",
+  "unread": "غير المقروءة",
+  "empty": "لا توجد إشعارات.",
+  "reason": "السبب: :reason",
+  "note": "ملاحظة الإدارة: :note",
+  "mark_all": "تعيين الكل كمقروء",
+  "mark_read": "تعيين كمقروء",
+  "open": "فتح",
+  "bell_label": {
+    "zero": "الإشعارات، لا جديد",
+    "one": "الإشعارات، إشعار جديد",
+    "two": "الإشعارات، إشعاران جديدان",
+    "few": "الإشعارات، :count إشعارات جديدة",
+    "many": "الإشعارات، :count إشعارًا جديدًا",
+    "other": "الإشعارات، :count إشعار جديد"
+  },
+  "flash": {
+    "all_read": "تم تعيين كل الإشعارات كمقروءة."
+  },
+  "types": {
+    "welcome": {"title": "أهلًا بك في البوابة", "body": "ابدأ باستكشاف الفعاليات وفرص التطوع.", "icon": "bi-stars"},
+    "event_registered": {"title": "تم تأكيد تسجيلك", "body": "سجلت في «:title».", "icon": "bi-calendar-check"},
+    "event_unregistered": {"title": "أُلغي تسجيلك", "body": "ألغيت تسجيلك في «:title».", "icon": "bi-calendar-x"},
+    "event_cancelled": {"title": "أُلغيت فعالية", "body": "أُلغيت «:title».", "icon": "bi-calendar-x"},
+    "event_updated": {"title": "تغيّر موعد أو مكان فعالية", "body": "راجع التفاصيل الجديدة لـ «:title».", "icon": "bi-calendar-event"},
+    "volunteer_registered": {"title": "تم تسجيلك متطوعًا", "body": "سجلت في «:title». تُعتمد الساعات بعد الإتمام.", "icon": "bi-heart"},
+    "volunteer_completed": {"title": "اعتُمدت ساعات تطوعك", "body": "أُضيفت :hours ساعة عن «:title».", "icon": "bi-patch-check"},
+    "volunteer_cancelled": {"title": "أُلغي تسجيلك في التطوع", "body": "لم تعد مسجلًا في «:title».", "icon": "bi-heartbreak"},
+    "opportunity_cancelled": {"title": "أُلغيت فرصة تطوع", "body": "أُلغيت «:title».", "icon": "bi-x-circle"},
+    "opportunity_updated": {"title": "تغيّر موعد أو مكان فرصة تطوع", "body": "راجع التفاصيل الجديدة لـ «:title».", "icon": "bi-arrow-repeat"},
+    "reservation_submitted": {"title": "استلمنا طلب الحجز", "body": "طلب حجز «:facility» قيد المراجعة.", "icon": "bi-hourglass-split"},
+    "reservation_approved": {"title": "تم قبول الحجز", "body": "قُبل طلب حجز «:facility».", "icon": "bi-check2-circle"},
+    "reservation_rejected": {"title": "رُفض طلب الحجز", "body": "رُفض طلب حجز «:facility».", "icon": "bi-x-octagon"},
+    "reservation_cancelled": {"title": "أُلغي الحجز", "body": "ألغت الإدارة حجز «:facility».", "icon": "bi-x-circle"},
+    "feedback_replied": {"title": "وصل رد على طلبك", "body": "ردت الإدارة على «:subject».", "icon": "bi-chat-left-text"},
+    "feedback_status": {"title": "تحدّثت حالة طلبك", "body": "«:subject» أصبح: :status.", "icon": "bi-arrow-repeat"},
+    "password_changed": {"title": "تم تغيير كلمة المرور", "body": "إن لم تقم بذلك فتواصل مع الإدارة فورًا.", "icon": "bi-shield-lock"}
+  }
+}

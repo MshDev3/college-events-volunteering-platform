@@ -1,0 +1,73 @@
+{
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome, :name",
+    "subtitle": "Your events, volunteer hours and latest updates.",
+    "complete_profile": "Complete your profile (student ID and mobile number) so organizers can reach you.",
+    "complete_profile_action": "Complete profile",
+    "my_upcoming": "My upcoming events",
+    "no_upcoming": "You haven't registered for upcoming events",
+    "no_upcoming_text": "Browse events and take a seat.",
+    "suggested": "Events you might like",
+    "opportunities": "Open volunteer opportunities",
+    "activity": "Recent activity",
+    "no_activity": "No activity yet."
+  },
+  "stats": {
+    "registered_events": "Registered events",
+    "completed_events": "Completed events",
+    "volunteer_hours": "Certified volunteer hours"
+  },
+  "registrations": {
+    "title": "My registrations",
+    "subtitle": "The events you registered for, by status.",
+    "tabs_label": "Event status",
+    "cols": {
+      "event": "Event",
+      "date": "Date",
+      "location": "Location",
+      "status": "Status"
+    },
+    "empty": {
+      "upcoming": "No upcoming events in your registrations.",
+      "ongoing": "Nothing is happening right now.",
+      "completed": "No completed events yet.",
+      "cancelled": "No cancelled registrations."
+    }
+  },
+  "volunteering": {
+    "title": "My volunteering",
+    "subtitle": "Your volunteer participation and certified hours.",
+    "empty": "You haven't signed up for any opportunity yet.",
+    "hours_pending": "Certified on completion (:hours)",
+    "cols": {
+      "opportunity": "Opportunity",
+      "hours": "Hours"
+    }
+  },
+  "activity": {
+    "event": {
+      "REGISTERED": "Registered for an event",
+      "ATTENDED": "Attended an event",
+      "CANCELLED": "Cancelled a registration"
+    },
+    "volunteer": {
+      "REGISTERED": "Signed up to volunteer",
+      "ATTENDED": "Attended a volunteer shift",
+      "COMPLETED": "Volunteer hours certified",
+      "CANCELLED": "Withdrew from an opportunity"
+    },
+    "reservation": {
+      "PENDING": "Requested a facility",
+      "APPROVED": "Booking approved",
+      "REJECTED": "Booking rejected",
+      "CANCELLED": "Booking cancelled"
+    },
+    "feedback": {
+      "OPEN": "Sent a request",
+      "IN_PROGRESS": "Your request is in progress",
+      "RESOLVED": "Your request was resolved",
+      "CLOSED": "Your request was closed"
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "my_title": "My reservations",
+  "my_subtitle": "Your college facility booking requests and their status.",
+  "new": "New booking request",
+  "new_subtitle": "The college administration reviews each request and notifies you of the decision.",
+  "submit": "Send request",
+  "cancel": "Cancel booking",
+  "cancel_confirm": "Cancel this booking request?",
+  "empty": "No booking requests",
+  "empty_text": "Request the theater, a hall or a court for your next activity.",
+  "search_placeholder": "Student name, ID or purpose",
+  "cols": {
+    "student": "Student",
+    "facility": "Facility",
+    "date": "Date",
+    "time": "Time",
+    "status": "Status"
+  },
+  "fields": {
+    "facility": "Facility",
+    "date": "Date",
+    "start_time": "From",
+    "end_time": "To",
+    "purpose": "Purpose",
+    "attendees": "Expected attendees",
+    "notes": "Additional notes"
+  },
+  "help": {
+    "purpose": "For example: drama club rehearsal, basketball team practice."
+  },
+  "rules_title": "Before you send",
+  "rules": {
+    "approval": "A booking is confirmed only after the administration approves it.",
+    "duration": "A single booking can last up to :hours hours.",
+    "ahead": "You can book up to :days days ahead.",
+    "conflict": "Times that clash with an approved booking can't be requested."
+  },
+  "errors": {
+    "end_before_start": "The end time must be after the start time.",
+    "in_past": "Choose a time in the future.",
+    "too_far": "Bookings can be made at most :days days ahead.",
+    "too_long": "A booking can last at most :hours hours.",
+    "over_capacity": "That's more than the facility's capacity (:capacity).",
+    "conflict": "This facility is already booked at that time. Choose another time.",
+    "conflict_on_approve": "Can't approve: an approved booking already covers this time.",
+    "duplicate": "You already have a request for this facility at an overlapping time.",
+    "not_pending": "This request is no longer pending.",
+    "already_started": "A booking whose time has started can't be approved.",
+    "cannot_cancel": "This booking can't be cancelled in its current status.",
+    "too_many": "You've sent several booking requests in a short time. Try again in an hour."
+  },
+  "flash": {
+    "submitted": "Booking request sent. It's now pending review.",
+    "cancelled": "Booking cancelled.",
+    "approved": "Booking approved and the student notified.",
+    "rejected": "Request rejected and the student notified."
+  },
+  "admin": {
+    "title": "Facility reservations",
+    "subtitle": "Review requests and approve or reject them. Conflicting bookings can't both be approved.",
+    "empty": "No matching requests.",
+    "approve": "Approve",
+    "reject": "Reject",
+    "reject_reason": "Reason (shown to the student)",
+    "confirm_reject": "Confirm rejection",
+    "cancel_confirm": "This approved booking will be cancelled and the student notified. Continue?",
+    "conflict_warning": "Clashes with an approved booking"
+  }
+}

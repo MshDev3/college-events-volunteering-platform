@@ -1,0 +1,53 @@
+# ---------------------------------------------------------------- Dependencies and build output
+/vendor/
+# Published by `composer install` (bin/console assets:publish)
+/public/assets/vendor/
+
+# ---------------------------------------------------------------- Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Filled-in copies of the setup script (the template itself is tracked)
+/database/setup/*.local.sql
+
+# ---------------------------------------------------------------- Runtime data
+/storage/logs/*
+/storage/mail/*
+/storage/uploads/*
+!/storage/**/.gitkeep
+/storage/cache/
+*.log
+# User uploads (keep the folder's security rules)
+/public/uploads/*
+!/public/uploads/.htaccess
+
+# ---------------------------------------------------------------- Database dumps and backups (personal data, password hashes)
+# Any SQL file is ignored except the schema files the application needs.
+*.sql
+!/database/migrations/*.sql
+!/database/setup/create_app_user.sql
+*.sql.gz
+*.dump
+*.sqlite
+*.sqlite3
+/backups/
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.bak
+
+# ---------------------------------------------------------------- Tooling, caches, editor and OS files
+/.phpunit.cache/
+/.phpunit.result.cache
+.idea/
+.vscode/
+.vs/
+*.swp
+*.tmp
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini

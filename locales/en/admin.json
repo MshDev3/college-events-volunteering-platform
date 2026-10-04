@@ -1,0 +1,42 @@
+{
+  "panel": "Admin panel",
+  "nav": {
+    "dashboard": "Overview",
+    "events": "Events",
+    "volunteering": "Volunteering",
+    "registrations": "Registrations",
+    "reservations": "Reservations",
+    "facilities": "Facilities",
+    "feedback": "Suggestions & complaints",
+    "messages": "Contact messages",
+    "users": "Users",
+    "settings": "Settings",
+    "site": "Site",
+    "view_site": "View site"
+  },
+  "dashboard": {
+    "title": "Overview",
+    "subtitle": "Hello :name, here are the portal's numbers right now.",
+    "pending_reservations": "Bookings awaiting review",
+    "no_pending": "No bookings are waiting for review.",
+    "latest_feedback": "Latest suggestions & complaints",
+    "upcoming_events": "Upcoming events"
+  },
+  "stats": {
+    "students": "Total students",
+    "events": "Total events",
+    "upcoming_events": "Upcoming events",
+    "registrations": "Total registrations",
+    "opportunities": "Volunteer opportunities",
+    "volunteer_hours": "Certified volunteer hours",
+    "pending_reservations": "Pending reservations",
+    "open_complaints": "Open complaints",
+    "unread_messages": "Unread messages"
+  },
+  "registrations": {
+    "title": "Event registrations",
+    "subtitle": "Every student registration across all events.",
+    "search_placeholder": "Student name, email, ID or event title",
+    "registered_at": "Registered at"
+  }
+}

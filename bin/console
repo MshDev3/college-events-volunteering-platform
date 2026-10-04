@@ -1,0 +1,98 @@
+#!/usr/bin/env php
+<?php
+
+declare(strict_types=1);
+
+/**
+ * Project CLI.
+ *
+ *   php bin/console migrate [--fresh]     Create/upgrade the database schema (--fresh: local only)
+ *   php bin/console admin:create          Create the first administrator (hidden password prompt)
+ *   php bin/console migrate:legacy        Import data from the legacy `project` database
+ *   php bin/console db:check              Verify the app DB account has data access only
+ *   php bin/console assets:publish        Copy Bootstrap/icons/images into public/assets
+ *   php bin/console mail:work             Send queued emails (password resets); run from cron with MAIL_QUEUE=cron
+ *   php bin/console tokens:purge          Delete expired remember/reset tokens and rate-limit rows
+ *   php bin/console i18n:check            Report translation keys missing in ar or en
+ */
+
+use App\Console\AssetPublisher;
+use App\Console\DbPrivilegeChecker;
+use App\Console\I18nChecker;
+use App\Console\LegacyImporter;
+use App\Console\Migrator;
+use App\Core\Database;
+use App\Services\Auth\PasswordResetService;
+use App\Services\Auth\RememberMeService;
+
+$command = $argv[1] ?? 'help';
+$options = array_slice($argv, 2);
+$out = static function (string $line): void {
+    fwrite(STDOUT, $line . PHP_EOL);
+};
+$base = dirname(__DIR__);
+
+// File-only commands need no configuration: `composer install` runs assets:publish on a fresh
+// clone, before .env exists, and i18n:check can run in CI without a database.
+if ($command === 'assets:publish' || $command === 'i18n:check') {
+    require $base . '/vendor/autoload.php';
+    if ($command === 'assets:publish') {
+        (new AssetPublisher($base))->publish($out);
+        exit(0);
+    }
+    exit((new I18nChecker($base . '/locales', $base))->run($out));
+}
+
+$app = require $base . '/app/bootstrap.php';
+
+try {
+    switch ($command) {
+        case 'migrate':
+            $fresh = in_array('--fresh', $options, true);
+            // --fresh drops the whole database: developer machines only.
+            if ($fresh && config('app.env') !== 'local') {
+                fwrite(STDERR, 'Refusing to run migrate --fresh: it deletes all data and APP_ENV is not "local".' . PHP_EOL);
+                exit(1);
+            }
+            (new Migrator((array) config('db'), $base . '/database/migrations', (string) config('app.timezone')))
+                ->migrate((string) config('db.database'), $fresh, $out);
+            break;
+
+        case 'admin:create':
+            exit(app(App\Console\AdminCreator::class)->run($options, $out));
+
+        case 'migrate:legacy':
+            $legacy = Database::connect((array) config('db'), (string) config('db.legacy_database'), (string) config('app.timezone'));
+            (new LegacyImporter($legacy, app(Database::class)))->run($out);
+            break;
+
+        case 'db:check':
+            exit((new DbPrivilegeChecker(app(Database::class)))->run($out));
+
+        case 'mail:work':
+            $r = app(App\Services\MailQueue::class)->work(500);
+            $out("Mail queue: {$r['sent']} sent, {$r['retried']} to retry, {$r['dropped']} dropped.");
+            break;
+
+        case 'tokens:purge':
+            $out('Remember tokens removed: ' . app(RememberMeService::class)->purgeExpired());
+            $out('Reset tokens removed: ' . app(PasswordResetService::class)->purgeExpired());
+            $out('Email change requests removed: ' . app(App\Services\Auth\EmailChangeService::class)->purgeExpired());
+            $out('Rate-limit rows removed: ' . app(Database::class)->query('DELETE FROM rate_limits WHERE reset_at <= NOW()')->rowCount());
+            break;
+
+        default:
+            $out('Usage: php bin/console <command>');
+            $out('  migrate [--fresh]   Create/upgrade the database schema');
+            $out('  admin:create        Create the first administrator (refused if an active admin exists)');
+            $out('  migrate:legacy      Import data from the legacy database');
+            $out('  db:check            Verify the app DB account has data access only');
+            $out('  assets:publish      Copy Bootstrap and icons into public/assets/vendor');
+            $out('  mail:work           Send queued emails (run every minute from cron when MAIL_QUEUE=cron)');
+            $out('  tokens:purge        Delete expired tokens and rate-limit rows');
+            $out('  i18n:check          Report translation keys missing in ar or en');
+    }
+} catch (Throwable $e) {
+    fwrite(STDERR, 'Error: ' . $e->getMessage() . PHP_EOL);
+    exit(1);
+}

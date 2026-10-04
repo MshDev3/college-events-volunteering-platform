@@ -1,0 +1,2 @@
+# Logs, development mail, private uploads (feedback attachments): never web-served.
+Require all denied

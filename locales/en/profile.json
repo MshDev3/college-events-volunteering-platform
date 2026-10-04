@@ -1,0 +1,47 @@
+{
+  "title": "Profile",
+  "subtitle": "Your details, preferences and password.",
+  "details": "Personal details",
+  "save": "Save details",
+  "password_title": "Change password",
+  "password_help": "Changing it signs you out on other devices and turns off “Remember me” there.",
+  "change_password": "Change password",
+  "member_since": "Member since :date",
+  "fields": {
+    "current_password": "Current password",
+    "current_password_for_email": "Current password (only needed to change your email)",
+    "language": "Interface and notification language"
+  },
+  "help": {
+    "email": "Used to log in and to recover your password. A new address takes effect once you open the confirmation link we send to it.",
+    "student_id_once": "Enter your student ID once. Contact the administration to change it later.",
+    "student_id_locked": "Contact the administration to change your student ID."
+  },
+  "errors": {
+    "wrong_password": "The current password is incorrect.",
+    "password_required_for_email": "Enter your correct current password to change your email.",
+    "too_many_password_checks": "Too many wrong password attempts. Try again in :minutes minutes.",
+    "too_many_email_changes": "Too many email change requests. Try again in an hour.",
+    "verification_not_sent": "We couldn't send the confirmation email. Check the address and try again.",
+    "email_taken": "This email is now used by another account."
+  },
+  "flash": {
+    "updated": "Your details were saved.",
+    "password_changed": "Password changed. Your other devices have been signed out.",
+    "email_verification_sent": "Your details were saved. To change your email, open the confirmation link we sent to the new address.",
+    "email_changed": "Your email was changed. Your other devices have been signed out.",
+    "email_change_cancelled": "The email change was cancelled."
+  },
+  "email_change": {
+    "pending": "A confirmation link was sent to :email. Your login email stays the same until you open it (valid until :time).",
+    "cancel": "Cancel this change",
+    "confirm_title": "Confirm your new email",
+    "confirm_text": "Use this address to log in and to recover your password from now on?",
+    "current": "Current email",
+    "new": "New email",
+    "confirm_effect": "After you confirm, your other devices will be signed out and your old address will be told about the change.",
+    "confirm_button": "Confirm new email",
+    "back_to_profile": "Back to profile",
+    "invalid": "This confirmation link is invalid, has expired or was already used. Request the change again from your profile."
+  }
+}
